@@ -1,15 +1,13 @@
-#put your code here
-class Teacher
+require 'pry'
+class Teacher < ActiveRecord::Base
 
-def tenure
-    if teacher.year_of_experience == 5
-        true 
-    else
-        false
+    def tenure
+        if years_of_experience == 5
+            true 
+        else
+            false
+        end
     end
-
-end 
-
 
 
 
