@@ -29,3 +29,8 @@ g6= GradeLevel.create(teacher: bordeau, student: rita)
 
 # binding.pry
 # "orangina"
+
+
+#Since teachers and students are meeting in the common instance method which is gradelevel. the are he changes i made are: first i created  a new class grade_level to join students and professors class. after that i created
+# a new  table on rake called gradelevel with the purpose to create a .all active method which will hold an entire collection of my data. also, i remove the teacher id from sudents because now we create a join table that will hold teacher id and student id. 
+#giving the fact that the students has many teachers through the grade_level  and teacher has many students through  the grade level, i needed to do a micro around the classes to create an association via AR. Also i neded to add an inheritant on the gradelevel class. 
