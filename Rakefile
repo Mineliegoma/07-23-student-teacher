@@ -8,4 +8,4 @@ desc "Start our app console"
     Pry.start
   end
 
-  #require_all 'app'
+  require_all 'app'
