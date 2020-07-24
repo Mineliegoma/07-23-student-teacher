@@ -1,9 +1,10 @@
 require 'pry'
 class Student < ActiveRecord::Base
+ belongs_to :teacher
 
-def full_name
+    def full_name
     p "#{first_name} #{last_name}"
-end 
+    end 
 
 end 
 

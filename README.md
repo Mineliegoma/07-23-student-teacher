@@ -1,4 +1,25 @@
 # 07-23-student-teacher
+
+- A student belong ot a teacher 
+- Student#teacher should return the teacher that student belongs to
+- Teacher#students should return the list of all student that belongs to this teacher
+
+
+Also,
+- A Student has many student through GradeLevel
+- A Teacher has many students through GradeLevel
+you should have a complete seeds file
+
+
+Answer: what change did you make to your app and why
+
+
+
+
+
+
+
+
 Donain: Student-Teacher
 - A student has a first_name(string)
 - A student has a last_name(string)

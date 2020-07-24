@@ -1,5 +1,6 @@
 require 'pry'
 class Teacher < ActiveRecord::Base
+has_many :students
 
     def tenure
         if years_of_experience == 5
