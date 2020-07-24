@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2020_07_23_233044) do
     t.string "grade_level"
   end
 
-  create_table "teachers", force: :cascleacade do |t|
+  create_table "teachers", force: :cascade do |t|
     t.string "last_name"
     t.string "grade_level"
     t.integer "years_of_experience"

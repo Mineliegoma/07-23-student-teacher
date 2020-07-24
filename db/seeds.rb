@@ -1,7 +1,7 @@
 
 
 
-#Student.delete_all
+Teacher.delete_all
 
 
 # rita= Student.create(first_name: "Rita",  last_name: "Jackson",  grade_level: "third")
@@ -15,5 +15,5 @@ richard= Teacher.create(last_name: "Richard", grade_level: "first", years_of_exp
 
 
 
-binding.pry
-"orangina"
+# binding.pry
+# "orangina"
